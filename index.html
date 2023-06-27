@@ -1,0 +1,31 @@
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>Contact Form</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+</head>
+<body>
+<h1 id="contact" class="form-heading">Contact</h1>
+<div class="container">
+    <div id="contactForm" style="display: block;">
+        <h1 style="margin-bottom: 10px;">Please Enter Your Details!</h1>
+        <form id="myForm" action="#">
+            <label for="name"></label><input id="name" placeholder="Name" type="text" required />
+            <label for="email"></label><input id="email" placeholder="Email" type="email" required />
+            <label for="subject"></label><input id="subject" placeholder="Subject" type="text" required />
+            <label for="message"></label><input id="message" placeholder="Message"/>
+            <div class="g-recaptcha" data-sitekey="6Lej_dYmAAAAAIuRS4mN11GBq0_5HP3NV50h3QFv"></div>
+            <button class="formBtn" type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="result" style="display: block;">
+        <div id="formData" class="result-box" style="display: none;"></div>
+        <button id="newEntry" class="new-entry-button" style="display: none;">New Entry</button>
+    </div>
+
+</div>
+<script src="main.js"></script>
+</body>
+</html>

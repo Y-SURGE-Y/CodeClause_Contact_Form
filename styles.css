@@ -1,0 +1,143 @@
+@import "https://fonts.googleapis.com/css?family=Poppins";
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+    background: #0f0c29;
+    background: -webkit-linear-gradient(
+            to right,
+            #24243e,
+            #302b63,
+            #0f0c29
+    );
+    background: linear-gradient(
+            to right,
+            #24243e,
+            #302b63,
+            #0f0c29
+    );
+}
+h1 {
+    margin: 0;
+}
+#contact {
+    margin: 4em auto;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+#contact:active {
+    background: #444;
+}
+
+#contactForm {
+    display: none;
+    border: 6px solid #3324be;
+    padding: 2em;
+    width: 400px;
+    text-align: center;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    border-radius: 16px;
+}
+
+input,
+textarea {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 15px;
+}
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+.formBtn {
+    outline: 0;
+    background: #3324be;
+    width: 140px;
+    height: 30px;
+    border: 0;
+    color: #ffffff;
+    font-size: 1.2em;
+    border-radius: 15px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+}
+
+.result-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.new-entry-button {
+    outline: 0;
+    background: #3324be;
+    width: 140px;
+    height: 30px;
+    border: 0;
+    color: #ffffff;
+    font-size: 1.2em;
+    border-radius: 15px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.new-entry-button:hover {
+    background-color: #3324be;
+}
+
+.form-heading {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#result{
+    display: none;
+    border: 6px solid #3324be;
+    padding: 2em;
+    width: 400px;
+    text-align: center;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    border-radius: 16px;
+}
